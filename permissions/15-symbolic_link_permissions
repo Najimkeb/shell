@@ -1,2 +1,2 @@
 #!/bin/bash
-chown of_hello vincent: staff *
+chown _hello vincent: staff *
