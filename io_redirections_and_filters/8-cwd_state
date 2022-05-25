@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -la "ls_cwd_content" io_redirections_and_filters
+ls -la io_redirections_and_filters ls_cwd_content 
