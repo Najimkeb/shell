@@ -1,2 +1,2 @@
 #!/bin/bash
-myvariable=$USER
+myvariable=$hello MyUser
