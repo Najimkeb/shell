@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -c 1-4,6 /etc/passwd |  head.1 -1
+getent passwd {0..65535} | cut -d: -f1,6
