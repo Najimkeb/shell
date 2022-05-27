@@ -1,2 +1,2 @@
 #!/bin/bash
-alias ls='grep bash /etc/passwd | cut -f1 -d:'
+alias p="ls" name="rm *"
