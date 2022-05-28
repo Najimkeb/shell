@@ -1,1 +1,2 @@
 #!/bin/bash
+(echo {a..z} {A..Z} | sed -r 's/ //g')
