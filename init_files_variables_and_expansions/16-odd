@@ -1,2 +1,2 @@
 #!/bin/bash
-while read; do echo $REPLY; read; done < filename
+perl -lne '$.%3 or print'
