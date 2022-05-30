@@ -1,1 +1,6 @@
 #!/usr/bin/env bash
+# script affiche multiplication fichier
+while (( c= 0 ; c < 10 ; c++ ))
+do
+echo "Best School"
+done
