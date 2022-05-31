@@ -6,7 +6,7 @@ bestschool=0;
 while [ "$bestschool" -ne 11 ]; do
 	printf "Best School\n";
 	if [[ $bestschool -eq 8 ]]; then
-		printf"Hi\n"
+		printf"Hi\n";
 	fi
 	((bestschool++))
 	
