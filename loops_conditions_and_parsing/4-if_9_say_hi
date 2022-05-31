@@ -2,9 +2,10 @@
 #this my script bash
 
 bestschool=0;
-while [ "$bestschool" -ne 10 ]; do
+Hi=8;
+while [ "$bestschool" -eq 10 ]; do
 	printf "Best School\n";
-	if (( "Hi" == 8)); then
+	if [[ $Hi -eq 8 ]]; then
 		printf "Hi\n";
 	((bestschool++))
 	fi
