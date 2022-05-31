@@ -1,1 +1,8 @@
 #!/usr/bin/env bash
+#this my script bash
+
+bestschool=0;
+until [ "$bestschool" -eq 10 ]; do
+	printf "Best School\n";
+	((bestschool++))
+done;	
