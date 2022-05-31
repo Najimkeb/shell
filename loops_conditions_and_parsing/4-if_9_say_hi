@@ -1,1 +1,11 @@
 #!/usr/bin/env bash
+#this my script bash
+
+bestschool=0;
+while [ "$bestschool" -ne 10 ]; do
+	printf "Best School\n";
+	if (( "Hi" == 9)); then
+		printf "Hi\n";
+	((bestschool++))
+	fi
+done;	
