@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #this my script bash
 
-Best School=0;
+bestschool=0;
 while [ "$bestschool" -ne 10 ]; do
 	printf "Best School\n";
 	((bestschool++))
