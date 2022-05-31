@@ -3,6 +3,6 @@
 
 Best School=0;
 while [ $bestschool -ne 10 ]; do
-printf "Best School\n";
-((Best School++))
+	printf "Best School\n";
+	((Best School++))
 done;	
