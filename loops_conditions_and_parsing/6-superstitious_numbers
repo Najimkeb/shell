@@ -4,11 +4,11 @@ i=1
 while [ $i -le 20 ]
 do
 case $i in
-4) printf "%s $i\nbad luck from China\n"
+4) printf "%s$i\nbad luck from China\n"
 ;;
-8) printf "%s $i\nbad luck from Japan\n"
+8) printf "%s$i\nbad luck from Japan\n"
 ;;
-16) printf "%s $i\nbad luck from Italy\n"
+16) printf "%s$i\nbad luck from Italy\n"
 ;;
 *) echo "$i"
 ;;
