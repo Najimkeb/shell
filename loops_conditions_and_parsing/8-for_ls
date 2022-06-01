@@ -1,1 +1,10 @@
 #!/usr/bin/env bash
+#!/usr/bin/env bash
+for i in 'ls -als $./loops_conditions_and_parsing'
+do
+if [ -d -eq "$i"]
+then
+echo "$./loops_conditions_and_parsing/$i"
+else
+fi
+done
