@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# the second script bash
 h=0
 while (( h <= 12 ))
 do
