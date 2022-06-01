@@ -10,7 +10,7 @@ case $i in
 ;;
 16) printf "bad luck from Italy\n"
 ;;
-*) printf "$i\n"
+*) echo "$i"
 ;;
 esac
 ((i++))
