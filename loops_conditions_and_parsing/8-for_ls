@@ -1,10 +1,12 @@
 #!/usr/bin/env bash
 #!/usr/bin/env bash
-for i in 'ls -als $./loops_conditions_and_parsing'
-do
-if [ -d -eq "$i"]
-then
-echo "$./loops_conditions_and_parsing/$i"
-else
-fi
+for i in $(ls -als "$1")
+	do
+	if [ -d "$i" ]
+	then
+		ls "$1"/"$i"
+	else
+		ls "$1"/"$i"
+	echo "liste"
+	fi
 done
