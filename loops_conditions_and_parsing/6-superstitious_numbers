@@ -6,9 +6,9 @@ do
 case $i in
 4) printf "%s$i\nbad luck from China\n"
 ;;
-8) printf "%s$i\nbad luck from Japan\n"
+9) printf "%s$i\nbad luck from Japan\n"
 ;;
-16) printf "%s$i\nbad luck from Italy\n"
+17) printf "%s$i\nbad luck from Italy\n"
 ;;
 *) echo "$i"
 ;;
