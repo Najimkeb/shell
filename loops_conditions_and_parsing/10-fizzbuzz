@@ -1,1 +1,13 @@
 #!/usr/bin/env bash
+#10
+i=1
+while [[ $i -eq 100]]
+do
+	if [[ $i * 3 * 5 ]]
+		echo "FizzBuzz"
+	elif [[ $i * 3]]
+		echo "Fizz"
+	elif [[ $i * 5 ]]
+		echo "Buzz"
+	else
+		"
