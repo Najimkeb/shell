@@ -2,7 +2,7 @@
 #school
 if [[ -e school ]]
 then
-	echo "school file exists"
+	echo "school file exist"
 if [[ -s school ]]
 	then
 	echo "school file is not empty"
