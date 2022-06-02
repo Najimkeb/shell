@@ -16,5 +16,5 @@ do
 	else
 		echo "$i"
 	fi
-		(i++)
+	((i++))
 	done
