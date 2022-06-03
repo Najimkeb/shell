@@ -1,6 +1,3 @@
 #!/usr/bin/env bash
 #kill
-while true; do
-	echo "4-to_infinity_and_beyond"
-	kill
-done
+kill -9 4-to_infinity_and_beyond
